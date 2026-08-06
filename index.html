@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Live TTS - Lee tu Chat en Vivo con IA</title>
+    <meta name="description" content="Escucha los comentarios, regalos, likes y nuevos seguidores de tu directo de TikTok Live en voz alta y en tiempo real. 100% local, sin servidores.">
+    
+    <!-- Open Graph (Facebook/WhatsApp/Discord) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="TikTok Live TTS - Lee tu Chat en Vivo con IA">
+    <meta property="og:description" content="Escucha tu chat de TikTok en tiempo real usando síntesis de voz (TTS) sin desviar la mirada de la pantalla.">
+    <meta property="og:image" content="assets/screenshot1.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="brand" id="nav-brand">
+                <img src="assets/logo.png" alt="TikTok Live TTS Logo" class="brand-logo">
+                <span class="brand-name">TikTok Live <span class="accent-cyan">TTS</span></span>
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#features" class="nav-link" id="link-features">Características</a>
+                <a href="#tutorial" class="nav-link" id="link-tutorial">Configuración</a>
+                <a href="#pricing" class="nav-link" id="link-pricing">Precios</a>
+                <a href="https://play.google.com/store/apps/details?id=com.silver_devs_labs.tiktoktts" target="_blank" class="btn btn-primary btn-nav" id="btn-download-nav">Descargar</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" id="hero-main-title">
+                    Lee tu chat de <br>
+                    <span class="gradient-text">TikTok Live</span> <br>
+                    en voz alta con IA
+                </h1>
+                <p class="hero-subtitle">
+                    Escucha comentarios, regalos y seguidores en tiempo real sin distraerte de tu juego o de las actividades de tu directo. Procesamiento directo en tu dispositivo que garantiza tu privacidad.
+                </p>
+                <div class="hero-ctas">
+                    <a href="https://play.google.com/store/apps/details?id=com.silver_devs_labs.tiktoktts" target="_blank" class="playstore-btn" id="hero-playstore-btn">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Disponible en Google Play" class="playstore-badge">
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="phone-mockup">
+                    <div class="phone-screen">
+                        <img src="assets/screenshot1.jpg" alt="TikTok Live TTS Interfaz Principal" class="screenshot active" id="sc-primary">
+                        <img src="assets/screenshot2.jpg" alt="TikTok Live TTS Ajustes" class="screenshot" id="sc-secondary">
+                    </div>
+                    <div class="mockup-indicator">
+                        <span class="dot active" data-target="sc-primary"></span>
+                        <span class="dot" data-target="sc-secondary"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="tagline">Sube el nivel de tus directos</span>
+                <h2 class="section-title">Haz directos como un profesional</h2>
+            </div>
+            
+            <div class="features-grid">
+                <div class="card feature-card" id="feat-local">
+                    <div class="card-icon cyan">🔒</div>
+                    <h3 class="card-title">100% On-Device</h3>
+                    <p class="card-desc">No guardamos tus datos. Todo el procesamiento de datos y la síntesis de voz se ejecutan directamente en tu smartphone.</p>
+                </div>
+                
+                <div class="card feature-card" id="feat-events">
+                    <div class="card-icon pink">🎁</div>
+                    <h3 class="card-title">Eventos Inteligentes</h3>
+                    <p class="card-desc">Personaliza las lecturas de los eventos premium: escucha regalos, likes, nuevos seguidores y compartidas de forma instantánea.</p>
+                </div>
+                
+                <div class="card feature-card" id="feat-clean">
+                    <div class="card-icon purple">🧹</div>
+                    <h3 class="card-title">Filtros Avanzados</h3>
+                    <p class="card-desc">Configura tu lista de palabras prohibidas, limpia emojis repetitivos y activa el filtro anti-spam para evitar el spam en chats concurridos.</p>
+                </div>
+                
+                <div class="card feature-card" id="feat-tts">
+                    <div class="card-icon orange">🗣️</div>
+                    <h3 class="card-title">Control de Voces</h3>
+                    <p class="card-desc">Elige entre múltiples voces instaladas en tu sistema Android, ajustando la velocidad y el tono de la lectura a tu gusto.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Setup/Tutorial Section -->
+    <section class="tutorial" id="tutorial">
+        <div class="container">
+            <div class="section-header">
+                <span class="tagline">Guía paso a paso</span>
+                <h2 class="section-title">Configuración en 3 Pasos</h2>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step-item" id="step-1">
+                    <div class="step-num">1</div>
+                    <h3 class="step-title">Descarga e instala</h3>
+                    <p class="step-desc">Descarga <a href="https://play.google.com/store/apps/details?id=com.silver_devs_labs.tiktoktts" target="_blank" class="text-link">TikTok Live TTS</a> desde la tienda oficial Google Play Store.</p>
+                </div>
+                
+                <div class="step-item" id="step-2">
+                    <div class="step-num">2</div>
+                    <h3 class="step-title">Crea tu API Key</h3>
+                    <p class="step-desc">Entra en <a href="https://eulerstream.com" target="_blank" class="text-link">Euler Stream</a>, inicia sesión con Google y genera una API Key gratuita. Cópiala y pégala en los Ajustes de la aplicación.</p>
+                </div>
+                
+                <div class="step-item" id="step-3">
+                    <div class="step-num">3</div>
+                    <h3 class="step-title">Ingresa tu usuario</h3>
+                    <p class="step-desc">Introduce tu nombre de usuario de TikTok (ej: @mi_canal) y presiona "Conectar al Live" para empezar a escuchar tu chat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="tagline">Elige el plan que se adapte a ti</span>
+                <h2 class="section-title">Precios Flexibles</h2>
+            </div>
+            
+            <div class="pricing-grid">
+                <!-- Free Plan -->
+                <div class="card pricing-card" id="price-free">
+                    <h3 class="pricing-tier">Básico</h3>
+                    <div class="price">Gratis</div>
+                    <p class="pricing-desc">Perfecto para empezar y probar la aplicación.</p>
+                    <ul class="pricing-features">
+                        <li><span>✔</span> Lectura de comentarios en TTS</li>
+                        <li><span>✔</span> Cola de reproducción estándar</li>
+                        <li><span>✔</span> Configuración de tono y velocidad</li>
+                        <li class="disabled"><span>❌</span> Anunciar regalos y likes</li>
+                        <li class="disabled"><span>❌</span> Sin anuncios (interstitials/banners)</li>
+                    </ul>
+                    <a href="https://play.google.com/store/apps/details?id=com.silver_devs_labs.tiktoktts" target="_blank" class="btn btn-outline" id="btn-free-download">Empezar gratis</a>
+                </div>
+                
+                <!-- Premium Plan -->
+                <div class="card pricing-card popular" id="price-premium">
+                    <div class="ribbon">Recomendado</div>
+                    <h3 class="pricing-tier">Premium Lifetime</h3>
+                    <div class="price">$4.99 <span class="period">Pago único</span></div>
+                    <p class="pricing-desc">Activa todo el poder del TTS para siempre.</p>
+                    <ul class="pricing-features">
+                        <li><span>✔</span> Lectura de comentarios en TTS</li>
+                        <li><span>✔</span> Cola inteligente con prioridad</li>
+                        <li><span>✔</span> Anunciar Regalos, Likes y Compartidas</li>
+                        <li><span>✔</span> Filtros anti-spam de voz avanzados</li>
+                        <li><span>✔</span> Acceso a todas las funciones premium</li>
+                    </ul>
+                    <a href="https://play.google.com/store/apps/details?id=com.silver_devs_labs.tiktoktts" target="_blank" class="btn btn-primary" id="btn-premium-buy">Obtener Premium</a>
+                </div>
+
+                <!-- Ad-free Plan -->
+                <div class="card pricing-card" id="price-noads">
+                    <h3 class="pricing-tier">No Ads Lifetime</h3>
+                    <div class="price">$9.99 <span class="period">Pago único</span></div>
+                    <p class="pricing-desc">Remueve toda la publicidad de la app.</p>
+                    <ul class="pricing-features">
+                        <li><span>✔</span> Cero anuncios en la pantalla principal</li>
+                        <li><span>✔</span> Sin interrupciones por banners</li>
+                        <li><span>✔</span> Experiencia visual 100% limpia</li>
+                        <li><span>✔</span> Ideal si usas tableta o segundo monitor</li>
+                    </ul>
+                    <a href="https://play.google.com/store/apps/details?id=com.silver_devs_labs.tiktoktts" target="_blank" class="btn btn-outline" id="btn-noads-buy">Quitar Anuncios</a>
+                </div>
+            </div>
+            
+            <p class="pricing-note">
+                💡 <strong>¿No quieres pagar?</strong> Puedes ganar tiempo premium gratis en la app viendo anuncios cortos acumulables antes de iniciar tu directo.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="brand-name">TikTok Live <span class="accent-cyan">TTS</span></span>
+                <p class="footer-desc">Una herramienta desarrollada por Silver Devs Labs.</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://silverdevslabs-del.github.io/tiktok-live-tts-privacy/" class="footer-link">Política de Privacidad</a>
+                <span class="separator">•</span>
+                <a href="mailto:silver.devs.labs@gmail.com" class="footer-link">Contacto</a>
+            </div>
+            <p class="copyright">&copy; 2026 Silver Devs Labs. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
